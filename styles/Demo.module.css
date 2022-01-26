@@ -1,0 +1,41 @@
+.wrapper {
+  background-color: rgba(127, 255, 212, 0.172);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: grid;
+  background-color: bisque;
+  --background-color: rgba(255, 228, 196, 0.364);
+  padding: 10px;
+  border-radius: 4px;
+  width: 400px;
+  margin: 10px;
+}
+
+.content > label {
+  --background-color: lightcoral;
+  --padding: 4px;
+  margin-top: 10px;
+}
+
+.content > input {
+  background-color: white;
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 4px;
+  height: 40px;
+  font-size: larger;
+}
+
+.content > button {
+  background-color: rgba(30, 165, 255, 0.494);
+  margin-top: 10px;
+  padding: 4px;
+  height: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+}
